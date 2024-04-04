@@ -1,6 +1,6 @@
 print("Hello Python")
-
-print(print)
+# help(print) - виведе документацію по переданій функції print
+# print(print)
 
 # input буде просити щось користувача ввести із клавіатури в терміналі
 # name=input("Enter your name")
@@ -14,10 +14,18 @@ print(print)
 newName = "Lesia"
 # print(dir(name))
 
-# якщо нічого не вказати в dir, вона покаже список 
+# якщо нічого не вказати в dir, вона покаже список
 print(dir())
 
 # викликаємо методи через точкову нотацію
-# print(name.upper())
+name = "lesia"
+print(dir(name))
+print(name)
+print(name.rfind("n"))
+print(name.capitalize())
 
-print(10,"None",True)
+
+print(10, "None", True)
+
+my_list = [1, 2, 3]
+print(my_list)
