@@ -9,6 +9,7 @@ nameTwo = "Oleh"
 print(name + nameTwo)  # KateOleh - конкатенація рядків
 print("name" * 32)  # namenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenameenamenamenamenamenamename
 print("name" + 32)  # TypeError: can only concatenate str (not "int") to str
+"e" in "Kate"  # True - перевірка чи є символ в рядку
 
 # int 10 - ціле число
 # age = 18
