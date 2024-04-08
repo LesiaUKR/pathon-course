@@ -7,4 +7,10 @@ for number in range(7):
 word = "Andrii Kateryna"
 res = 0
 
-for
+for symbol in word:
+    if symbol.lower() == 'a':
+        res += 1
+
+print(res)
+
+# find min max
