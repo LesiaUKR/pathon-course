@@ -7,9 +7,14 @@ print(ord("B"))  # 66 - код символа в таблиці ASCII
 name = "Kate"
 nameTwo = "Oleh"
 print(name + nameTwo)  # KateOleh - конкатенація рядків
-print("name" * 32)  # namenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenameenamenamenamenamenamename
-print("name" + 32)  # TypeError: can only concatenate str (not "int") to str
+print("name" * 32)  # namenamenamnameenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenameenamenamenamenamenamename
+# print("name" + 32)  # TypeError: can only concatenate str (not "int") to str
 "e" in "Kate"  # True - перевірка чи є символ в рядку
+
+# варіанти створення рядків
+a = ""
+b = ''
+c = ''' '''
 
 # int 10 - ціле число
 # age = 18
@@ -43,6 +48,10 @@ print(a)  # None
 # щоб перевірити чи змінна має значення None потрібно використовувати оператор is
 # is перевіряє і типи даних і значення
 # оператор is - аналог === в JavaScript
+# оператор is повинен використовуватися для перевірки ідентичності об'єктів,
+# коли важливо, щоб дві змінні вказували на один і той же об'єкт.
+# А оператор == повинен використовуватися для перевірки
+# рівності значень двох об'єктів.
 a is None  # True - поверне True, якщо змінна має значення None
 1 is None  # False - поверне False, якщо змінна не має значення None
 
