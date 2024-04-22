@@ -1,13 +1,15 @@
-def factorial(n):
-    if n < 2:
-        return 1
-    else:
-        return n * factorial(n - 1)
+def closure():
+    count = 0
+
+    def add(n):
+        nonlocal count
+        count += n
+        return count
+    return add
 
 
-def number_of_groups(n, k):
-    number_of_groups=factorial(n) / (factorial(n - k) * factorial(k))
-    print(int(number_of_groups))
-    return int(number_of_groups)
+my_add = closure()  # повернення функції add
+print(my_add(5))
 
-number_of_groups(50, 7)
+my_second_add = my_add
+print(my_second_add(2))
