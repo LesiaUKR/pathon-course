@@ -1,5 +1,12 @@
-text5 = "Контакти: example1@example.com, example2@sample.org"
-pattern7 = r"\w+@\w+\.\w+"
-matches = re.findall(pattern7, text5)
+# multiline string
+string = 'abc 12\
+de 23 \n \tf45 6'
 
-print(matches)  # Виведе всі знайдені електронні адреси
+# matches all whitespace characters
+pattern2 = '\s+'
+
+# empty string is the separator
+replace = ''
+
+new_string = re.sub(pattern2, replace, string)
+print(new_string)

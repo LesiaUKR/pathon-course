@@ -1,0 +1,36 @@
+{
+   "user_id": 340,
+   "name": "Paul Allen",
+   "last_name": "Baker",
+   "email_address": "jyoung@example.net",
+   "phone_number": "(334)921-1148",
+   "date_joined": "04/06/2005, 02:54:06"
+}{
+   "user_id": 62,
+   "name": "Nathan Gonzalez",
+   "last_name": "Rivera",
+   "email_address": "richardjensen@example.com",
+   "phone_number": "+1-200-443-1698x9313",
+   "date_joined": "01/06/2006, 07:29:06"
+}{
+   "user_id": 331,
+   "name": "Jasmine Howard",
+   "last_name": "Montgomery",
+   "email_address": "tbean@example.org",
+   "phone_number": "527-808-4875x205",
+   "date_joined": "07/31/2020, 06:42:30"
+}{
+   "user_id": 879,
+   "name": "Andrew Baker",
+   "last_name": "Alvarado",
+   "email_address": "amberrichardson@example.com",
+   "phone_number": "732-810-3849",
+   "date_joined": "07/15/1998, 05:58:44"
+}{
+   "user_id": 822,
+   "name": "Bryan Wilson",
+   "last_name": "Allen",
+   "email_address": "nixonnicolas@example.org",
+   "phone_number": "715-929-5012x234",
+   "date_joined": "11/17/1985, 08:43:10"
+}
