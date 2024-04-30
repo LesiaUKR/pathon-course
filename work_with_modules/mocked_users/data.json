@@ -1,0 +1,36 @@
+{
+   "user_id": 890,
+   "name": "Robin Johns",
+   "last_name": "Stone",
+   "email_address": "dawnlopez@example.org",
+   "phone_number": "+1-236-374-3972x0141",
+   "date_joined": "12/19/2011, 12:47:19"
+}{
+   "user_id": 905,
+   "name": "Sergio Dawson",
+   "last_name": "Conner",
+   "email_address": "lisafisher@example.net",
+   "phone_number": "001-656-279-7158",
+   "date_joined": "09/04/2007, 17:57:19"
+}{
+   "user_id": 433,
+   "name": "Terry Franklin",
+   "last_name": "Burch",
+   "email_address": "sjohnson@example.com",
+   "phone_number": "4118711389",
+   "date_joined": "03/16/1982, 04:30:43"
+}{
+   "user_id": 166,
+   "name": "James Stephenson",
+   "last_name": "Reynolds",
+   "email_address": "amanda71@example.net",
+   "phone_number": "266.681.7801x44397",
+   "date_joined": "06/03/1981, 15:14:39"
+}{
+   "user_id": 400,
+   "name": "Michele Keller",
+   "last_name": "Murphy",
+   "email_address": "leondiaz@example.org",
+   "phone_number": "001-865-205-1150x08249",
+   "date_joined": "11/26/2018, 20:35:52"
+}

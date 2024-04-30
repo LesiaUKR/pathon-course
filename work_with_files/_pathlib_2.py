@@ -8,6 +8,11 @@ from shutil import copyfile
 source = Path("work_with_files/photos_unpacked/")
 output_folder = Path("work_with_files/Backup/")
 
+# iterdir() використовується для отримання переліку всіх 
+# файлів та піддиректорій у вказаній директорії
+# mkdir() - створює нову директорію
+# Path.mkdir(mode=0o777, parents=False, exist_ok=False)
+# rmdir() - видаляє директорію, але директорія повинна бути порожньою
 
 def read_folder(path: Path) -> None:
     for el in path.iterdir():

@@ -1,3 +1,5 @@
+from pathlib import Path
+
 """
 "r" - Read - Default value. Opens a file for reading, error if the file does not exist
 
@@ -33,6 +35,21 @@ as of 2024.[9] Virtually all countries and languages have 95% or more use of UTF
 
 # absolute path - це шлях відносно кореневого каталогу системи - C:\Users\user\OneDrive\Документы\GitHub\python-course\work_with_files\_open\ex_01.py
 # relative path - це шлях, який відкритий в терміналі - work_with_files\_open\ex_01.py
+
+# Перетворення відносного шляху в абсолютний
+relative_path = Path("documents/example.txt")
+absolute_path = relative_path.absolute()
+print(absolute_path)
+
+
+# Перетворення відносного шляху в абсолютний
+relative_path = Path("documents/example.txt")
+absolute_path = relative_path.absolute()
+
+current_working_directory = Path(
+    "E:\WebDir\Works\Python\python-help-solution\example_for_new_core\l04")
+relative_path = absolute_path.relative_to(current_working_directory)
+print(relative_path)
 
 # write - перезаписує в файл, тобто попередні дані видаляються
 # якщо файлу не існує, то він створюється

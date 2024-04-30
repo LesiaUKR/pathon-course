@@ -1,6 +1,9 @@
 
 import shutil
 
+
+# shutil.copy() - копіює файл
+# shutil.copy2() - копіює файл, зберігаючи метадані
 # Копіюємо файл
 # файл, який буде скопійовано
 # source_file = 'work_with_files/photos_unpacked/bot-icon.png'
