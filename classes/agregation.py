@@ -1,5 +1,6 @@
 # композиція - коли буде видалений Cat, то буде видалений і Owner
 # агрегація - коли буде видалений Cat, то Owner залишиться
+
 class Animal:
     def __init__(self, nickname: str, age: int) -> None:
         self.nickname = nickname
