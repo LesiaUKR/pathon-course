@@ -19,5 +19,5 @@
 # pip install - r requirements.txt - встановлення пакетів з файлу requirements.txt при встановленні нового проєкту
 
 # poetry - надбудова над pip, трішки складніше, але краще, використовують для більших проєктів
-# ./venv/Scripts/activate - активація віртуального середовища в Windows в bash
+# source ./venv/Scripts/activate - активація віртуального середовища в Windows в bash
 # venv\Scripts\activate - активація віртуального середовища в Windows в cmd
