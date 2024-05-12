@@ -1,3 +1,12 @@
+# __add__(self, other) для оператора +
+# __sub__(self, other) для оператора -
+# __mul__(self, other) для оператора *
+# __truediv__(self, other) для оператора /
+# __floordiv__(self, other) для оператора цілочисельного ділення //
+# __mod__(self, other) для оператора залишку від ділення %
+# __pow__(self, other) для оператора * піднесення до степеня
+
+
 from collections import UserDict
 
 
