@@ -7,6 +7,16 @@
 # налаштовуваних або замкнутих функцій
 
 
+def f():
+    print("Hello, World!")
+
+
+f()  # Виклик функції - Hello, World!
+f.__call__()  # Виклик методу __call__ - Hello, World!
+
+# __call__ - працює як функція, але викликається як метод, працює під капотом, коли викликається об'єкт
+
+
 class Multiplier:
     def __init__(self, factor):
         self.factor = factor

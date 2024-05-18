@@ -1,0 +1,14 @@
+auth:
+  algorithm: HS256
+  expire_token: 30
+  secret_key: fba012a2a0c9c3d884fdf15843f2aa438bac1b5e8527875ecd7187e3ce49415
+common:
+  port: 3000
+postgres:
+  data:
+    id: 1
+  db_database: web15
+  db_host: localhost
+  db_password: '333333'
+  db_port: 5432
+  db_user: admin

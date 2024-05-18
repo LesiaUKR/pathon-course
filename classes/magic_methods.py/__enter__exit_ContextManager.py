@@ -5,6 +5,7 @@ class MyContextManager:
         return self  # Може повертати об'єкт
 
     def __exit__(self, exc_type, exc_value, traceback):
+        print(exc_type, exc_value, traceback)
         # Звільнення ресурсу
         print("Exit the block")
         if exc_type:
