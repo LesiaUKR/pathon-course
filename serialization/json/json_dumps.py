@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 
+# Синтаксис JSON базується на двох структурних елементах: об'єкти та масиви
 # json - java script object notation - текстовий формат обміну даними, що базується на синтаксисі мови JavaScript
 # deserialization = load(для файлу), loads (для строки)
 # serialization = dump(для файлу), dumps(для строки)

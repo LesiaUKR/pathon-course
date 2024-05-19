@@ -16,7 +16,7 @@
 # run_main - запустити головний файл
 
 # pip freeze > requirements.txt - створення файлу зі списком пакетів по типу package.json в Node.js
-# pip install - r requirements.txt - встановлення пакетів з файлу requirements.txt при встановленні нового проєкту
+# pip install -r requirements.txt - встановлення пакетів з файлу requirements.txt при встановленні нового проєкту
 
 # poetry - надбудова над pip, трішки складніше, але краще, використовують для більших проєктів
 # source ./venv/Scripts/activate - активація віртуального середовища в Windows в bash
